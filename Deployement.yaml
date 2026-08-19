@@ -13,5 +13,5 @@ labels:
 app: k8s-webapp
 spec:
 containers: - name: webapp
-image: aishwaryabane/hello-world:latest
+image: aishwaryabane/k8s-webapp:v1
 ports: - containerPort: 80
